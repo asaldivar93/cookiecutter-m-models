@@ -1,0 +1,35 @@
+├── .gitignore
+├── README.md
+├── LICENSE.md
+├── workflow
+│   ├── rules
+|   │   ├── module1.smk
+|   │   └── module2.smk
+│   ├── envs
+|   │   ├── tool1.yaml
+|   │   └── tool2.yaml
+│   ├── scripts
+|   │   ├── script1.py
+|   │   └── script2.R
+│   ├── notebooks
+|   │   ├── notebook1.py.ipynb
+|   │   └── notebook2.r.ipynb
+│   ├── report
+|   │   ├── plot1.rst
+|   │   └── plot2.rst
+|   └── Snakefile
+├── results
+├── references
+├── data
+│   ├── external       <- Data from third party sources.
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+├── models
+│   ├── external       <- Data from third party sources.
+│   ├── draft        <- Intermediate data that has been transformed.
+│   ├── cured      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+├── pyproject.toml
+├── requirements.txt
+
